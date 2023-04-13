@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sound Card</title>
+    <style>
+      body {
+        background-color:hsla(185, 75%, 39%, 1);
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .profile {
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border:5px solid hsla(0, 0%, 100%, 1);
+        border-radius: 50%;
+        margin-top: -60px;
+        margin-left: 120px;
+      }
+      .name {
+        font-size: 18px;
+        color: hsla(228, 23%, 23%, 1);
+        margin-top: 5px;
+        margin-left: 114px;
+        display:inline-block;
+      }
+      .age {
+        color:hsla(228, 10%, 47%, 1);
+        display: inline-block;
+      }
+      .city {
+        font-size: 17px;  
+        color: hsla(228, 10%, 47%, 1);
+        margin-top: 4px;
+        margin-left: 144px;
+      }
+      .line{
+        border-top:1px solid hsl(0, 10%, 59%);
+      }
+      .bottom {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+               }
+      h1 { 
+        font-size:20px;
+        color: hsla(228, 23%, 23%, 1);
+      }
+      .followers{
+        font-size:13px;
+        color: hsla(228, 10%, 47%, 1);
+      }
+      .likes {
+        font-size:13px;
+        color: hsla(228, 10%, 47%, 1);
+      }
+      .photos {
+        font-size:13px;
+        color: hsla(228, 10%, 47%, 1);
+      }
+      .circles {
+      position: absolute;
+      }
+    
+    </style>
+  </head>
+  <body>
+    <div class="circles">
+      <img class="c1" src="bg-pattern-top.svg" style="margin-top:-88px;margin-left:-35px;">
+      <img class="c2" src="bg-pattern-bottom.svg" style="margin-bottom:-171px;margin-left:897px;">
+    </div>
+    <div class="mtavariconteineri" style="width:350px;height:374px;
+     background-color:white; 
+     margin:auto; 
+     border-radius: 15px; 
+     position: relative;">
+     <img class="cover" src="bg-pattern-card.svg" style="; border-top-right-radius: 15px; border-top-left-radius: 15px;">
+     <img class="profile" src="image-victor.jpg">
+     <h1 class="name">
+       <strong>Victor Crest</strong>
+       <span class="age">26</span></h1>
+     <h2 class="city">London</h2>
+     <div class="line" style="width:350px; height:1px;
+     background-color:hsla(228, 9%, 92%, 1);
+     margin-top:10px;">
+     <footer>
+       <div class="bottom" style="width:350px; height:88px; 
+       background-color:  hsla(0, 0%, 100%, 1);
+       border-bottom-left-radius: 15px; 
+       border-bottom-right-radius: 15px">
+       <h1>80K<br><span class="followers">Followers</span></h1>
+       <h1>803K<br><span class="likes">likes</span></h1>
+       <h1>1.4k<br><span class="photos">Photos</span></h1>
+        
+     </footer>
+
+
+  </body>
+</html>
